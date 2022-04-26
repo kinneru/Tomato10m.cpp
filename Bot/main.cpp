@@ -279,12 +279,12 @@ int main() {
     char* token;
 #ifdef _WIN32
     size_t len;
-    if (_dupenv_s(&token, &len, "DISCORD_TEST_TOKEN")) {
+    if (_dupenv_s(&token, &len, "OTUyMTMwMDIxOTU3NDY0MTI0.YixiLg.T_fc_U_92WrUsDkeinP1oQlFPj0")) {
         cerr << "Error" << endl;
         return -1;
     }
 #else
-    token = getenv("DISCORD_TEST_TOKEN");
+    token = getenv("OTUyMTMwMDIxOTU3NDY0MTI0.YixiLg.T_fc_U_92WrUsDkeinP1oQlFPj0");
 #endif
 
     Intents intents = Intents::Default();
